@@ -1,6 +1,6 @@
 # MMM-WatchDog
 
-This MagicMirror² keeps an eye on your UI and quits app in case the UI crashes.
+This MagicMirror² module keeps an eye on your UI and quits app in case the UI crashes.
 If you combine this with the [PM2 process manager](https://github.com/MichMich/MagicMirror/wiki/Auto-Starting-MagicMirror#using-pm2), MM2 will automaticly restart after a UI failure.
 
 ## Installation
