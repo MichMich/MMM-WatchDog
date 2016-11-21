@@ -37,27 +37,24 @@ The following properties can be configured:
 
 
 <table width="100%">
-	<!-- why, markdown... -->
 	<thead>
 		<tr>
 			<th>Option</th>
 			<th width="100%">Description</th>
 		</tr>
-	<thead>
+	</thead>
 	<tbody>
-
 		<tr>
 			<td><code>interval</code></td>
 			<td>The number of seconds between each Heartbeat.
 				<br><b>Default value:</b> <code>2</code>
 			</td>
 		</tr>
-        <tr>
+        	<tr>
 			<td><code>timeout</code></td>
 			<td>The timeout in seconds before the MagicMirror² app quits.
 				<br><b>Default value:</b> <code>10</code>
 			</td>
 		</tr>
-
 	</tbody>
 </table>
