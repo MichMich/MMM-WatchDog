@@ -3,7 +3,8 @@ Module.register("MMM-WatchDog",{
     // Default module config.
     defaults: {
         interval: 2,
-        timeout: 10
+        timeout: 10,
+        pm2_app: "MagicMirror"
     },
 
     // Override dom generator.
