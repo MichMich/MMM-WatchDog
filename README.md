@@ -52,8 +52,15 @@ The following properties can be configured:
 		</tr>
         	<tr>
 			<td><code>timeout</code></td>
-			<td>The timeout in seconds before the MagicMirror² app quits.
+			<td>The timeout in seconds before the MagicMirror² app restarts.
 				<br><b>Default value:</b> <code>10</code>
+			</td>
+		</tr>
+        </tr>
+        	<tr>
+			<td><code>pm2_app</code></td>
+			<td>The name of the pm2 app to restart on failure.
+				<br><b>Default value:</b> <code>MagicMirror</code>
 			</td>
 		</tr>
 	</tbody>
